@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainAnchorPane" prefHeight="500.0" prefWidth="674.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+    <children>
+        <Button fx:id="studentiButton" layoutX="93.0" layoutY="239.0" mnemonicParsing="false" onAction="#handleStudentiButton" text="STUDENTI" />
+        <Button fx:id="temeButton" layoutX="225.0" layoutY="239.0" mnemonicParsing="false" onAction="#handleTemeButton" text="TEME" />
+        <Button fx:id="noteButton" layoutX="342.0" layoutY="239.0" mnemonicParsing="false" onAction="#handleNoteButton" text="NOTE" />
+        <Button fx:id="rapoarteButton" layoutX="445.0" layoutY="239.0" mnemonicParsing="false" onAction="#handleRapoarteButton" text="RAPOARTE" />
+        <ImageView fx:id="studentImage" fitHeight="106.0" fitWidth="107.0" layoutX="76.0" layoutY="105.0" onMouseClicked="#handleStudentiButton" pickOnBounds="true" preserveRatio="true" styleClass="imagine">
+            <image>
+                <Image url="@../pics/student2.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="106.0" fitWidth="106.0" layoutX="195.0" layoutY="105.0" onMouseClicked="#handleTemeButton" pickOnBounds="true" preserveRatio="true" styleClass="imagine">
+            <image>
+                <Image url="@../pics/tema1.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="106.0" fitWidth="106.0" layoutX="312.0" layoutY="105.0" onMouseClicked="#handleNoteButton" pickOnBounds="true" preserveRatio="true" styleClass="imagine">
+            <image>
+                <Image url="@../pics/grade1.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="106.0" fitWidth="106.0" layoutX="430.0" layoutY="105.0" onMouseClicked="#handleRapoarteButton" pickOnBounds="true" preserveRatio="true" styleClass="imagine">
+            <image>
+                <Image url="@../pics/rapoarte.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

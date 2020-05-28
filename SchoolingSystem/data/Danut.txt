@@ -1,0 +1,10 @@
+Tema: 1
+Nota: 10.0
+Predata in saptamana: 11
+Deadline: 9
+Feedback: Foarte grozav!
+Tema: 2
+Nota: 10.0
+Predata in saptamana: 11
+Deadline: 10
+Feedback: exceptional de mirobolant

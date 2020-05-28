@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="607.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../css/style.css" fx:controller="controller.RapoarteController">
+    <children>
+        <TableView fx:id="studentiMedieTableView" layoutX="33.0" layoutY="66.0" prefHeight="200.0" prefWidth="305.0">
+            <columns>
+                <TableColumn fx:id="idStudentiMedieTableColumn" prefWidth="47" text="ID"/>
+                <TableColumn fx:id="numeStudentiMedieTableColumn" prefWidth="90" text="Nume"/>
+                <TableColumn fx:id="grupaStudentiMedieTableColumn" prefWidth="77" text="Grupa"/>
+                <TableColumn fx:id="medieStudentiMedieTableColumn" prefWidth="74" text="Medie"/>
+            </columns>
+        </TableView>
+        <TableView fx:id="studentiExamenTableView" layoutX="429.0" layoutY="66.0" prefHeight="200.0" prefWidth="305.0">
+            <columns>
+                <TableColumn fx:id="idStudentiExamenTableColumn" prefWidth="48" text="ID"/>
+                <TableColumn fx:id="numeStudentiExamenTableColumn" prefWidth="92" text="Nume"/>
+                <TableColumn fx:id="grupaStudentiExamenTableColumn" prefWidth="83" text="Grupa"/>
+                <TableColumn fx:id="medieStudentiExamenTableColumn" prefWidth="79" text="Medie"/>
+            </columns>
+        </TableView>
+        <TableView fx:id="studentiSilitoriTableView" layoutX="69.0" layoutY="344.0" prefHeight="200.0"
+                   prefWidth="231.0">
+            <columns>
+                <TableColumn fx:id="idStudentiSilitoriTableColumn" prefWidth="56" text="ID"/>
+                <TableColumn fx:id="numeStudentiSilitoriTableColumn" prefWidth="95" text="Nume"/>
+                <TableColumn fx:id="grupaStudentiSilitoriTableColumn" prefWidth="78" text="Grupa"/>
+            </columns>
+        </TableView>
+        <TableView fx:id="temeMedieTableView" layoutX="474.0" layoutY="344.0" prefHeight="200.0" prefWidth="231.0">
+            <columns>
+                <TableColumn fx:id="idTemeMedieTableColumn" prefWidth="56" text="ID"/>
+                <TableColumn fx:id="descriereTemeMedieTableColumn" prefWidth="95" text="Descriere"/>
+                <TableColumn fx:id="medieTemeMedieTableColumn" prefWidth="78" text="Medie"/>
+            </columns>
+        </TableView>
+        <Label onMouseClicked="#handleLabelStudentiMedie" styleClass="barChart" fx:id="studentiMedieLabel" layoutX="86.0" layoutY="29.0" text="MEDIA PONDERATA A STUDENTILOR"/>
+        <Label layoutX="474.0" layoutY="29.0" text="STUDENTII CARE POT INTRA IN EXAMEN"/>
+        <Label layoutX="43.0" layoutY="304.0" text="STUDENTII CARE AU PREDAT LA TIMP TOATE TEMELE"/>
+        <Label styleClass="barChart" layoutX="524.0" layoutY="304.0" text="DIFICULTATEA TEMELOR"/>
+    </children>
+</AnchorPane>

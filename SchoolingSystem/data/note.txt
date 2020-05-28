@@ -1,0 +1,6 @@
+1; 1; 2019-12-18; Vescan Andreea; 9.0; 
+1; 2; 2019-12-18; Vescan Andreea; 9.0; 
+2; 1; 2019-12-11; Camelia Serban; 10.0; 
+2; 2; 2019-12-09; Camelia Serban; 10.0; 
+3; 3; 2019-11-09; Vescan Camelia; 10.0; 
+3; 2; 2019-11-25; Roxana; 10.0; 

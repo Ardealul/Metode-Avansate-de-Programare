@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchorPane" prefHeight="641.0" prefWidth="843.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../css/style.css" fx:controller="controller.NotaController">
+    <children>
+        <ComboBox fx:id="temeComboBox" layoutX="98.0" layoutY="300.0" prefWidth="150.0" promptText="Tema"/>
+        <Label fx:id="dataLabel" layoutX="30.0" layoutY="364.0" text="Data"/>
+        <Label fx:id="profesorLabel" layoutX="30.0" layoutY="398.0" text="Profesor"/>
+        <Label fx:id="valoareLabel" layoutX="30.0" layoutY="430.0" text="Valoare"/>
+        <Label fx:id="motivareLabel" layoutX="30.0" layoutY="460.0" text="Motivare"/>
+        <Label fx:id="intarziereLabel" layoutX="30.0" layoutY="495.0" text="Intarziere"/>
+        <Label fx:id="feedbackLabel" layoutX="29.0" layoutY="525.0" text="Feedback"/>
+        <TextField fx:id="dataTextField" layoutX="89.0" layoutY="360.0" prefHeight="26.0" prefWidth="158.0"
+                   promptText="Data notei"/>
+        <TextField fx:id="profesorTextField" layoutX="89.0" layoutY="394.0" prefHeight="26.0" prefWidth="158.0"
+                   promptText="Profesorul"/>
+        <TextField fx:id="valoareTextField" layoutX="89.0" layoutY="426.0" prefHeight="26.0" prefWidth="158.0"
+                   promptText="Valoarea notei"/>
+        <TextField fx:id="motivareTextField" layoutX="89.0" layoutY="456.0" prefHeight="26.0" prefWidth="158.0"
+                   promptText="Nr sapt motivare"/>
+        <TextField fx:id="intarziereTextField" layoutX="89.0" layoutY="491.0" prefHeight="26.0" prefWidth="158.0"
+                   promptText="Nr sapt intarziere profesor"/>
+        <TextArea fx:id="feedbackTextArea" layoutX="89.0" layoutY="525.0" prefHeight="92.0" prefWidth="158.0"
+                  promptText="Feedback..."/>
+        <Button fx:id="adaugaButton" layoutX="317.0" layoutY="500.0" mnemonicParsing="false"
+                onAction="#handleAdaugaButton" text="Adauga"/>
+        <TableView fx:id="noteTableView" layoutX="422.0" layoutY="95.0" prefHeight="290.0" prefWidth="388.0">
+            <columns>
+                <TableColumn fx:id="idStudentColumn" prefWidth="69" text="IDStudent"/>
+                <TableColumn fx:id="idTemaColumn" prefWidth="60" text="IDTema"/>
+                <TableColumn fx:id="dataColumn" prefWidth="85" text="Data"/>
+                <TableColumn fx:id="profesorColumn" prefWidth="100" text="Profesor"/>
+                <TableColumn fx:id="valoareColumn" prefWidth="70" text="Valoare"/>
+            </columns>
+        </TableView>
+        <TextField fx:id="findStudentTextField" layoutX="99.0" layoutY="36.0" promptText="Numele studentului..."/>
+        <TableView fx:id="studentiTableView" layoutX="22.0" layoutY="81.0" prefHeight="200.0" prefWidth="228.0">
+            <columns>
+                <TableColumn fx:id="idColumn" prefWidth="50" text="ID"/>
+                <TableColumn fx:id="numeColumn" prefWidth="82.5" text="Nume"/>
+                <TableColumn fx:id="prenumeColumn" prefWidth="79" text="Prenume"/>
+            </columns>
+        </TableView>
+        <Label fx:id="findStudentLabel" layoutX="22.0" layoutY="40.0" text="Find student"/>
+        <Label fx:id="findTemaLabel" layoutX="29.0" layoutY="304.0" text="Find tema"/>
+        <Label fx:id="titluNoteLabel" layoutX="602.0" layoutY="53.0" text="NOTE">
+            <font>
+                <Font size="18.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inbox>
+    <Student CadruDidacticLaborator="Vescan Andreea" Email="ci@gmail.com" Grupa="221" ID="1" Nume="Cailean"
+             Prenume="Marius"/>
+    <Student CadruDidacticLaborator="Vescan Andreea" Email="bi@yahoo.com" Grupa="221" ID="2" Nume="Benchea"
+             Prenume="Ion"/>
+    <Student CadruDidacticLaborator="Vescan Andreea" Email="ai@yahoo.com" Grupa="226" ID="3" Nume="Alin"
+             Prenume="Ionut"/>
+    <Student CadruDidacticLaborator="IstvanCzibula" Email="iv@gmail.com" Grupa="224" ID="4" Nume="Ionescu"
+             Prenume="Vlad"/>
+    <Student CadruDidacticLaborator="Catalina Mihai" Email="ddd@yahoo.com" Grupa="222" ID="5" Nume="Dorinel"
+             Prenume="Dorescu"/>
+    <Student CadruDidacticLaborator="Lord Istvan" Email="666@gmail.com" Grupa="227" ID="6" Nume="Illu"
+             Prenume="Minati"/>
+    <Student CadruDidacticLaborator="Istvan Grabiela" Email="mm@yahoo.com" Grupa="222" ID="7" Nume="Mihaiela"
+             Prenume="Petrescu"/>
+    <Student CadruDidacticLaborator="Octavian Gogu" Email="pp@gmail.com" Grupa="225" ID="8" Nume="Petrus"
+             Prenume="Petrisor"/>
+    <Student CadruDidacticLaborator="Ionica Petreu" Email="cv@gmail.com" Grupa="221" ID="9" Nume="Cazaciuc"
+             Prenume="Valerian"/>
+</inbox>

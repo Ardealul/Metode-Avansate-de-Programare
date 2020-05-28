@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="faedc03d-0af1-4a7b-a4d1-53afb6f86077" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Tr5dzcEMxiT2lnWDrKQYwcVADh" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MAP\laborator8\src\main\resources\pics" />
+      <recent name="E:\MAP\laborator5CuGradle" />
+      <recent name="E:\MAP\laborator5CuGradle\data" />
+      <recent name="E:\MAP\laborator5CuGradle\src\test\java" />
+      <recent name="E:\MAP\laborator5CuGradle\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MAP\laborator9\src\main\resources\pics" />
+      <recent name="E:\MAP\laborator8\src\main\resources\pics" />
+      <recent name="E:\MAP\laborator8\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.Main" />
+      <module name="untitled.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.MainApp" />
+      <module name="untitled.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;service.ServiceTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ServiceTest.filtrareStudentiGrupa" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ServiceTest.filtrareStudentiGrupa&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'untitled.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Gradle.ServiceTest.filtrareStudentiGrupa" />
+        <item itemvalue="Gradle.ServiceTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.Tests in 'untitled.test'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="faedc03d-0af1-4a7b-a4d1-53afb6f86077" name="Default Changelist" comment="" />
+      <created>1574205464783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574205464783</updated>
+      <workItem from="1574205468319" duration="905000" />
+      <workItem from="1574206444271" duration="99000" />
+      <workItem from="1574230108288" duration="2438000" />
+      <workItem from="1574238098989" duration="621000" />
+      <workItem from="1574251564642" duration="477000" />
+      <workItem from="1574526652310" duration="228000" />
+      <workItem from="1574703524178" duration="6214000" />
+      <workItem from="1574711874212" duration="23316000" />
+      <workItem from="1574850014652" duration="2094000" />
+      <workItem from="1575028499506" duration="11413000" />
+      <workItem from="1575237027174" duration="1703000" />
+      <workItem from="1575320512203" duration="597000" />
+      <workItem from="1575360382426" duration="135000" />
+      <workItem from="1575360568657" duration="11381000" />
+      <workItem from="1575383122102" duration="66000" />
+      <workItem from="1575383195049" duration="3999000" />
+      <workItem from="1575404945154" duration="1355000" />
+      <workItem from="1575657262400" duration="23814000" />
+      <workItem from="1575877617943" duration="10122000" />
+      <workItem from="1575902071505" duration="2565000" />
+      <workItem from="1575905855244" duration="11656000" />
+      <workItem from="1575979180726" duration="7136000" />
+      <workItem from="1576001831854" duration="2480000" />
+      <workItem from="1576004472074" duration="1220000" />
+      <workItem from="1576013579892" duration="456000" />
+      <workItem from="1576015415039" duration="185000" />
+      <workItem from="1576045097491" duration="2165000" />
+      <workItem from="1576086915581" duration="77000" />
+      <workItem from="1576233974452" duration="4280000" />
+      <workItem from="1576238505604" duration="17890000" />
+      <workItem from="1576305479504" duration="28676000" />
+      <workItem from="1576400294199" duration="8562000" />
+      <workItem from="1576426182199" duration="864000" />
+      <workItem from="1576505177620" duration="486000" />
+      <workItem from="1576573942236" duration="104000" />
+      <workItem from="1576574536586" duration="405000" />
+      <workItem from="1576585086314" duration="337000" />
+      <workItem from="1576591787555" duration="71000" />
+      <workItem from="1576595189252" duration="4439000" />
+      <workItem from="1576615753027" duration="610000" />
+      <workItem from="1576649485725" duration="1951000" />
+      <workItem from="1576653259819" duration="741000" />
+      <workItem from="1577554575073" duration="334000" />
+      <workItem from="1578348625413" duration="1776000" />
+      <workItem from="1578381443642" duration="1527000" />
+      <workItem from="1578432292111" duration="2876000" />
+      <workItem from="1580660011335" duration="131000" />
+      <workItem from="1580742771814" duration="5431000" />
+      <workItem from="1580898361297" duration="1305000" />
+      <workItem from="1580915904514" duration="63000" />
+      <workItem from="1580916178016" duration="23000" />
+      <workItem from="1580930036800" duration="598000" />
+      <workItem from="1580973274816" duration="1504000" />
+      <workItem from="1581615953689" duration="165000" />
+      <workItem from="1582799852442" duration="35000" />
+      <workItem from="1585040355164" duration="12221000" />
+      <workItem from="1585133804934" duration="709000" />
+      <workItem from="1585303364566" duration="102000" />
+      <workItem from="1590689388266" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/AddNotaController.java</url>
+          <line>50</line>
+          <properties class="controller.AddNotaController" method="setService">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/AddNotaController.java</url>
+          <line>76</line>
+          <properties class="controller.AddNotaController" method="handleOkButton">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/AddNotaController.java</url>
+          <line>60</line>
+          <properties class="controller.AddNotaController" method="setTextArea">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

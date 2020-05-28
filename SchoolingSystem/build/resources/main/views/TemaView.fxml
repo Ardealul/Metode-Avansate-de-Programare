@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainAnchorPane" prefHeight="635.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../css/style.css" fx:controller="controller.TemaController">
+    <children>
+        <Button fx:id="adaugaButton" layoutX="56.0" layoutY="495.0" mnemonicParsing="false"
+                onAction="#handleAdaugaButton" prefHeight="26.0" prefWidth="62.0" text="Adauga"/>
+        <Button fx:id="stergeButton" layoutX="176.0" layoutY="540.0" mnemonicParsing="false"
+                onAction="#handleStergeButton" text="Sterge"/>
+        <Button fx:id="modificaButton" layoutX="56.0" layoutY="541.0" mnemonicParsing="false"
+                onAction="#handleModificaButton" text="Modifica"/>
+        <Button fx:id="gasesteButton" layoutX="267.0" layoutY="540.0" mnemonicParsing="false"
+                onAction="#handleGasesteButton" text="Gaseste"/>
+        <Button fx:id="gasesteToateTemeleButton" layoutX="360.0" layoutY="540.0" mnemonicParsing="false"
+                onAction="#handleGasesteToateTemeleButton" text="Gaseste toate temele"/>
+        <TableView fx:id="temaTableView" layoutX="56.0" layoutY="86.0" prefHeight="383.0" prefWidth="432.0">
+            <columns>
+                <TableColumn fx:id="tableColumnId" prefWidth="42" text="ID"/>
+                <TableColumn fx:id="tableColumnDescriere" prefWidth="140" text="Descriere"/>
+                <TableColumn fx:id="tableColumnStartWeek" prefWidth="124" text="StartWeek"/>
+                <TableColumn fx:id="tableColumnDeadlineWeek" minWidth="0.0" prefWidth="124" text="DeadlineWeek"/>
+            </columns>
+        </TableView>
+        <TextField fx:id="IdTextField" layoutX="176.0" layoutY="495.0" prefHeight="26.0" prefWidth="149.0"
+                   promptText="Id-ul temei"/>
+        <Label fx:id="IdLabel" layoutX="148.0" layoutY="496.0" text="ID"/>
+        <Label fx:id="TemeLabel" layoutX="237.0" layoutY="48.0" prefHeight="18.0" prefWidth="58.0" text="TEME"/>
+    </children>
+</AnchorPane>

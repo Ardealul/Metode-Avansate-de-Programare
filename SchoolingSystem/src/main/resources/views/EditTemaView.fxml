@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainAnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../css/style.css" fx:controller="controller.EditTemaController">
+    <children>
+        <TextField fx:id="idTextField" layoutX="129.0" layoutY="44.0"/>
+        <TextField fx:id="descriereTextField" layoutX="129.0" layoutY="89.0"/>
+        <TextField fx:id="startWeekTextField" layoutX="129.0" layoutY="134.0"/>
+        <TextField fx:id="deadlineWeekTextField" layoutX="129.0" layoutY="180.0"/>
+        <Label fx:id="idLabel" layoutX="37.0" layoutY="44.0" text="ID"/>
+        <Label fx:id="descriereLabel" layoutX="37.0" layoutY="89.0" text="Descriere"/>
+        <Label fx:id="startWeekLabel" layoutX="37.0" layoutY="134.0" text="StartWeek"/>
+        <Label fx:id="deadlineWeekLabel" layoutX="37.0" layoutY="180.0" text="DeadlineWeek"/>
+        <Button fx:id="adaugaButton" layoutX="81.0" layoutY="322.0" mnemonicParsing="false" onAction="#handleSaveButton"
+                prefHeight="26.0" prefWidth="45.0" text="Save"/>
+        <Button fx:id="exitButton" layoutX="179.0" layoutY="322.0" mnemonicParsing="false" onAction="#handleExitButton"
+                prefHeight="26.0" prefWidth="48.0" text="Exit"/>
+    </children>
+</AnchorPane>

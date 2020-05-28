@@ -1,0 +1,102 @@
+.label{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 10px;
+    -fx-text-fill: black;
+}
+
+.root{
+    -fx-background-color: #fff
+}
+
+.table-view{
+    -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-font-family: "Verdana";
+    -fx-font-size: 11px;
+    -fx-alignment: CENTER-RIGHT;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005797; /*33cc33;*/
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view .filler{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.button:hover{
+    -fx-background-color: #0f0f0a;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 10px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.button{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 10px;
+    -fx-text-fill: #0f0f0a;
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+
+.text-field{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 10px;
+    -fx-border-color: black;
+}
+
+.combo-box{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 10px;
+    -fx-border-color: black;
+}
+
+.barChart:hover{
+    -fx-cursor: hand;
+    -fx-font-size: 10px;
+    -fx-text-fill: #fff;
+    -fx-background-color: black;
+    -fx-border-color: black;
+}
+
+
+

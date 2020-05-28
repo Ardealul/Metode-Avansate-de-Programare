@@ -1,0 +1,10 @@
+Tema: 1
+Nota: 9.0
+Predata in saptamana: 12
+Deadline: 9
+Feedback: Excelenta treaba, tinere student! Ai grija la intarzieri totusi!
+Tema: 2
+Nota: 9.0
+Predata in saptamana: 12
+Deadline: 10
+Feedback: Grozava treaba! Tot asa!
